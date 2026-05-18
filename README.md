@@ -25,3 +25,10 @@ O conjunto de dados contém informações sobre anúncios de carros usados, incl
 - Ano do modelo;
 - Marca e modelo;
 - Condição do veículo.
+
+## Projeto Sprint 5
+Projeto finalizado e enviado para correção através das contas GitHub e Render:
+  GitHub: https://github.com/elienecrescencio
+  Local URL: http://localhost:8501
+  Network URL: http://10.26.201.71:8501
+  External URL: http://74.220.48.20:8501
