@@ -31,12 +31,3 @@ if scatter_checkbox:
     st.write('Criando um gráfico de dispersão para o conjunto de dados de anúncios de vendas de carros')
     fig = px.scatter(car_data, x="odometer", y="price")
     st.plotly_chart(fig, use_container_width=True)
-
-show_all = st.checkbox('Mostrar todos os gráficos')
-
-if show_all:
-    hist_checkbox = True
-    scatter_checkbox = True
-else:
-    hist_checkbox = st.checkbox('Mostrar histograma')
-    scatter_checkbox = st.checkbox('Mostrar gráfico de dispersão')
